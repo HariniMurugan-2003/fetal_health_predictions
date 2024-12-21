@@ -23,5 +23,5 @@ if st.button('Predict'):
     print('IN button')
     data = json.dumps(user_options,indent =2)
     # Send the request as JSON
-    r = requests.post('http://http://134.122.119.149:8002//predict', json=data)
+    r = requests.post('http://134.122.119.149:8002/predict', json=data)
     st.write(r.json())
