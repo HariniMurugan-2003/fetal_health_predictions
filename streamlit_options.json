@@ -1,30 +1,18 @@
 {
   "slider_fields": {
-    "histogram_number_of_peaks": [
-      0,
-      18
+    "histogram_width": [
+      5,
+      180
     ],
-    "severe_decelerations": [
+    "histogram_number_of_zeroes": [
+      0,
+      10
+    ],
+    "fetal_movement": [
       0,
       1
     ],
-    "histogram_median": [
-      77,
-      186
-    ],
-    "abnormal_short_term_variability": [
-      12,
-      86
-    ],
-    "histogram_variance": [
-      0,
-      269
-    ],
-    "histogram_mode": [
-      60,
-      187
-    ],
-    "prolonged_decelerations": [
+    "light_decelerations": [
       0,
       1
     ],
@@ -32,17 +20,29 @@
       73,
       182
     ],
+    "mean_value_of_long_term_variability": [
+      0,
+      51
+    ],
+    "prolonged_decelerations": [
+      0,
+      1
+    ],
     "mean_value_of_short_term_variability": [
       0,
       7
     ],
-    "fetal_movement": [
+    "histogram_number_of_peaks": [
+      0,
+      18
+    ],
+    "histogram_min": [
+      50,
+      158
+    ],
+    "accelerations": [
       0,
       1
-    ],
-    "histogram_width": [
-      5,
-      180
     ],
     "percentage_of_time_with_abnormal_long_term_variability": [
       0,
@@ -52,44 +52,36 @@
       0,
       1
     ],
-    "histogram_tendency": [
-      -1,
+    "severe_decelerations": [
+      0,
       1
     ],
-    "mean_value_of_long_term_variability": [
+    "histogram_variance": [
       0,
-      51
+      269
+    ],
+    "abnormal_short_term_variability": [
+      12,
+      86
+    ],
+    "histogram_mode": [
+      60,
+      187
     ],
     "histogram_max": [
       122,
       238
     ],
-    "accelerations": [
-      0,
-      1
-    ],
-    "histogram_min": [
-      50,
-      158
-    ],
-    "light_decelerations": [
-      0,
-      1
-    ],
-    "baseline_value": [
-      106,
-      160
-    ],
-    "histogram_number_of_zeroes": [
-      0,
-      10
+    "histogram_median": [
+      77,
+      186
     ]
   },
   "single_select_fields": {
-    "fetal_health": [
-      1.0,
-      2.0,
-      3.0
+    "histogram_tendency": [
+      "-1.0",
+      "0.0",
+      "1.0"
     ]
   }
 }
